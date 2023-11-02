@@ -4,8 +4,8 @@ window.addEventListener("mousemove", function (details) {
     var xval = gsap.utils.mapRange(
         0,
         window.innerWidth,
-        200 + rect.getBoundingClientRect().width / 2,
-        window.innerWidth - (200 + rect.getBoundingClientRect().width / 2),
+        100 + rect.getBoundingClientRect().width / 2,
+        window.innerWidth - (100 + rect.getBoundingClientRect().width / 2),
         details.clientX
     );
 
